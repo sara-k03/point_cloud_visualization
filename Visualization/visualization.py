@@ -10,6 +10,6 @@ def load_point_cloud_from_csv(filename):
 def visualize_point_cloud(pcd):
     o3d.visualization.draw_geometries([pcd])
 
-filename = "rats_nest_xy_0.csv"  
+filename = "rats_nest_xy_0.csv" # Enter the point cloud CSV file here 
 pcd = load_point_cloud_from_csv(filename)
 visualize_point_cloud(pcd)
